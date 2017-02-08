@@ -1,0 +1,230 @@
+/*==============UNIVERSALS================*/
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.red-background {
+    background-color: #ff383f;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.pull-left{
+    float: left;
+    text-align: left;
+}
+
+.pull-right{
+    float: right;
+}
+
+.half {
+    width: 50%;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*==============HEADER SECTION====================*/
+header {
+    padding: 25px 20px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+span h4 {
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+    margin: 0 15px;
+}
+
+header > ul > li > a {
+    text-decoration: none;
+    font-size: 135%;
+    text-transform: lowercase;
+    color: #000;
+}
+
+header > ul > li {
+    border-radius: 15px 15px 0 0;
+    background-color: #CAEBF2;
+    padding: 15px;
+}
+
+/*==================HERO SECTION===================*/
+#hero {
+    width: 100%;
+    height: 350px;
+    margin-top: 80px;
+    background-image: url('../img/code.jpg');
+    background-size: cover;
+    background-position: center;
+    border-top: 4px solid #CAEBF2;
+    border-bottom: 4px solid #CAEBF2;
+}
+.clear h1 {
+    margin: 0;
+    position: relative;
+    top: 42.5%;
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+    font-variant: small-caps;
+    letter-spacing: 5px;
+}
+
+audio {
+    display: inline-block;
+    position: relative;
+    top: 250px;
+    left: 37.5%;
+    margin: auto;
+}
+
+/*=================ASIDE SECTION================*/
+aside {
+    width: 29.5%;
+    border-right: 4px solid #91A3B0;
+    background-color: #CAEBF2;
+}
+
+aside h2 {
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    border-bottom: 4px solid #91A3B0;
+}
+
+#blog-links {
+    padding-left: 0;
+}
+
+.blog-link:hover {
+    background-color: #fff;
+    position: relative;
+
+}
+
+.blog-link {
+    padding: 5px 0;
+    text-align: center;
+    margin: 0;    
+}
+
+.blog-link > h5 > a {
+    font-size: 24px;
+}
+
+/*iframe {*/
+/*    clear: both;*/
+/*    position: relative;*/
+/*    height: 300px;*/
+/*    width: 100%;*/
+/*}*/
+
+aside, main {
+    height: 950px;
+}
+/*===============MAIN SECTION=================*/
+main {
+    width: 68.5%;
+    padding: 0 10px;
+}
+
+main > h2, main > h4 {
+    text-align: center;
+}
+
+#main-wrapper{
+    margin-bottom: 10px;
+}
+
+.paragraph-links {
+    font-weight: bold;
+    color: #ff383f;
+}
+
+#main-content-pic {
+    float: left;
+    height: 250px;
+    width: 175px;
+    background-image: url('../img/gavin_hooli.jpg');
+}
+
+#main-content-paragraph {
+    text-indent: 50px;
+}
+
+.paragraph-links:hover {
+    background-color: #CAEBF2;
+}
+
+.alt-height {
+    line-height: 150%;
+}
+
+iframe {
+    width: 700px;
+    height: 450px;
+}
+
+/*=============FOOTER SECTION===============*/
+footer {
+    height: 160px;
+    padding: 15px 20px;
+    border-top: 4px solid #CAEBF2; 
+    clear: both;
+    color: #fff;
+}
+
+#social-media-wrapper {
+    margin: 10px auto;
+    text-align: center;
+}
+
+a .fa {
+    color: #fff;
+    padding: 0 10px;
+}
+
+#copyright {
+    padding-right: 10px;
+}
+
+#large-text {
+    font-size: 150%;
+}

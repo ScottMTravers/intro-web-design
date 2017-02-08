@@ -1,0 +1,54 @@
+/*============HEADER SECTION=============*/
+header {
+    border-bottom: 4px solid #CAEBF2;
+}
+
+/*=============SECTION TAGS==============*/
+section {
+    margin-top: 80px;
+    float: left;
+    width: 48%;
+    height: 928px;
+}
+
+/*==========CONTACT FORM IFRAME================*/
+#contact-form-wrapper {
+    background: #CAEBF2;
+}
+
+#map-wrapper {
+    margin-top: 10px;
+}
+
+/*========MAP IFRAME SECTION========*/
+
+#map-iframe {
+    width: 100%;
+    height: 350px;
+}
+
+/*=========PHYSICAL INFO SECTION========*/
+
+#physical-info-side {
+    margin-top: 80px;
+}
+
+#contact-info {
+    text-align: center;
+    position: relative;
+    margin-top: 55%;
+    padding: 10px;
+}
+
+address {
+    font-weight: bolder;
+}
+
+button {
+    background-color: pink;
+    margin: 10px 15px 0;
+}
+
+button > a {
+    color: red;
+}
